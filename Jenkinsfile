@@ -4,8 +4,8 @@ pipeline {
     agent any
     environment {
         pullName = "Test-Auto"
-        API_URL = "https://api.github.com/repos/isaacloveschicken/testingCICDPrivate/"
-        GIT_CREDENTIAL_ID = "9c5a1002-4c9f-42c9-b85b-04edb1cd1dcf"
+        API_URL = "https://api.github.com/repos/<<user_name>>/<<your_repo_name>>/"
+        GIT_CREDENTIAL_ID = "<<your_credentials_on_jenkins>>"
     }
     stages {
 
