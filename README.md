@@ -1,24 +1,5 @@
-# testingCICDPrivate
+# Continuous Integration for a Private GitHub Repo
 
-## Setup
+This repository contains a basic project to help teach about continuous integration.
 
-run `npm install` in order to install the required packages.
-
-The code is located in the `src` folder.
-
-Run `npm run test` to verify if tests are passing or not. Remember, you have to be in the directory for this command to work.
-
-## Instructions
-
-The Fibonacci sequence, named after mathematician Fibonacci, is a sequence of numbers that looks like this:
-
-`0, 1, 1, 2, 3, 5, 8, 11, 19`
-
-You get first two starting numbers, 0 and 1, and the next number in the sequence is always the sum of the previous two numbers.
-
-You should write the function `getFibNumber(steps)` that returns a number from the Fibonacci sequence, based on the parameter `steps`, which determines the position in Fibonacci number.
-
-- For example
-  - `0` should return `0`
-  - `4` should return `3`
-  - `15` should return `610`
+To demonstrate Jenkin's ability to run tests, it includes two small files in the src folder. One with "getFibNumber()" that calculates the nth number in the Fibonacci sequence and the other to test that "getFibNumber()" works correctly.
