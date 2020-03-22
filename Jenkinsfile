@@ -5,7 +5,7 @@ pipeline {
     environment {
         pullName = "Test-Auto"
         API_URL = "https://api.github.com/repos/<<user_name>>/<<your_repo_name>>/"
-        GIT_CREDENTIAL_ID = "<<your_credentials_on_jenkins>>"
+        GIT_CREDENTIAL_ID = "my_github_credentials"
     }
     stages {
 
